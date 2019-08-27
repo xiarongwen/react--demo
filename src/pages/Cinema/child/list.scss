@@ -1,0 +1,48 @@
+.ListContent{
+    padding: 13px 15px 13px 0;
+    margin-left: 15px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    .title{
+        display: flex;
+        .title-content{
+            line-height: 23px;
+            font-size: 16px;
+            color: #000;
+        }
+        .moeny{
+           margin-left: 10px;
+            color: #f03d37;
+            span{
+                font-size: 18px;
+            }
+        }
+    }
+    .addr{
+        display: flex;
+        .addr-warp{
+            width: 281px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            span{
+                white-space: nowrap;
+                font-size: 13px;
+                color: #666;
+            }
+        }
+        .km{
+            font-size: 13px;
+            color: #666;
+        }
+    }
+
+    .card{
+        font-size: 11px;
+        color: #999;
+    }
+}
+
+.border-bottom{
+    border-bottom:1px solid #f4f4f4; 
+}

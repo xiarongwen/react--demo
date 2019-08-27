@@ -1,0 +1,20 @@
+.tabs-warp {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 49px;
+    display: flex;
+    .tabs{
+        flex: 1;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        .tab{
+            font-size: 12px;
+        }
+        &.active{
+            color: #f03d37;
+        }
+    }
+}

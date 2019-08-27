@@ -1,0 +1,48 @@
+.page{
+    position: absolute;
+    top: 87px;
+    bottom: 49px;
+    background: #fff;
+    width: 100%;
+    
+}
+.page2{
+    position: absolute;
+    top:83px;
+    bottom: 49px;
+    background: #fff;
+    width: 100%;
+}
+.page3{
+    position: absolute;
+    top: 43px;
+    bottom: 0px;
+    background: #fff;
+    width: 100%;
+    z-index: 30;
+}
+.others{
+    bottom:0px !important;
+    top: 43px !important;
+    z-index: 10;
+}
+.header-warp{
+    height: 43px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background: #e54847;
+    text-align: center;
+}
+.header-warp .name{
+    font-size: 18px;
+    line-height: 43px;
+    color: #fff;
+}
+.header-warp .back{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 0 10px;
+    color: #fff;
+}

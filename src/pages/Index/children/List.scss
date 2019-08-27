@@ -1,0 +1,108 @@
+.List{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    .ListImg{
+        width: 64px;
+        img{
+            width: 100%;
+        }
+    }
+    .main{
+        flex: 1;
+        margin-left: 8px;
+        .title{
+            font-size: 17px;
+            color: #333;
+            font-weight: 700;
+            padding-right: 5px;
+            flex-shrink: 1;
+        }
+        .content{
+            padding-right: 5px;
+            margin-right: 48px;
+            .content-top{
+                .wish{
+                    color: #faaf00;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+                .Audience{
+                    font-size: 13px;
+                    margin-left: 2px;
+                    display: inline-block;
+                    color: #666;
+                }
+
+            }
+            .zhuyan{
+                width: 210px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                .zhuyanName{
+                    font-size: 13px;
+                    color: #666;
+                }
+            }
+            .maxIcon img{
+                top: 10px;
+                left: 270px;
+                position: absolute;
+                background-size: contain;
+                background-repeat: no-repeat;
+                height: 14px;
+                width: 43px;
+                display: inline-block;
+            }
+            .ysBtb{
+                position: absolute;
+                right: 23px;
+                top: 50px;
+                background-color: #3c9fe6;
+                width: 47px;
+                height: 27px;
+                line-height: 28px;
+                text-align: center;
+                box-sizing: border-box;
+                color: #fff;
+                border-radius: 4px;
+                white-space: nowrap;
+                font-size: 12px;
+                cursor: pointer;
+            }
+            .buyNow{
+                position: absolute;
+                right: 23px;
+                top: 50px;
+                background-color: #f03d37;
+                width: 47px;
+                height: 27px;
+                line-height: 28px;
+                text-align: center;
+                box-sizing: border-box;
+                color: #fff;
+                border-radius: 4px;
+                white-space: nowrap;
+                font-size: 12px;
+                cursor: pointer;
+            }
+            .xk{
+                position: absolute;
+                right: 23px;
+                top: 50px;
+                background-color: #faaf00;
+                width: 47px;
+                height: 27px;
+                line-height: 28px;
+                text-align: center;
+                box-sizing: border-box;
+                color: #fff;
+                border-radius: 4px;
+                white-space: nowrap;
+                font-size: 12px;
+                cursor: pointer;
+            }
+        }
+    }
+}
